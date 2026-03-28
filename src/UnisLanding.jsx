@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import unisLogo from "../public/unisLogoThree.svg"
 
 const UNIS_BLUE = "#083d8c";
 const UNIS_BLUE_LIGHT = "#1a5fc2";
@@ -334,7 +335,7 @@ export default function UnisLanding() {
         backdropFilter: scrollY > 50 ? "blur(20px)" : "none",
         borderBottom: scrollY > 50 ? "1px solid rgba(255,255,255,0.05)" : "1px solid transparent",
       }}>
-        <UnisLogo size={48} />
+        <unisLogo size={48} />
         <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
           <a href="#artists" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "14px", fontWeight: 500, transition: "color 0.2s" }}
             onMouseEnter={e => e.target.style.color = "#fff"} onMouseLeave={e => e.target.style.color = "rgba(255,255,255,0.6)"}>Artists</a>
@@ -644,7 +645,7 @@ export default function UnisLanding() {
         <div className="hero-glow" style={{ bottom: "-200px", left: "50%", marginLeft: "-300px", background: UNIS_BLUE, opacity: 0.12 }} />
         <div className="section" style={{ textAlign: "center", paddingTop: "120px", paddingBottom: "120px" }}>
           <Reveal>
-            <UnisLogo size={80} style={{ margin: "0 auto 32px", display: "block" }} />
+            <unisLogo size={80} style={{ margin: "0 auto 32px", display: "block" }} />
           </Reveal>
           <Reveal delay={0.1}>
             <h2 style={{
@@ -698,7 +699,7 @@ export default function UnisLanding() {
         textAlign: "center",
       }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
-          <UnisLogo size={36} />
+          <unisLogo size={36} />
           <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.25)" }}>
             © 2026 Unis. Your music. Your masters. Your money.
           </p>
