@@ -173,7 +173,7 @@ export default function UnisLanding() {
           display: flex; align-items: center; justify-content: space-between;
           transition: background 0.3s ease, backdrop-filter 0.3s ease, border-color 0.3s ease;
         }
-        .nav-logo { height: 40px; width: auto; }
+        .nav-logo { height: 60px; width: auto; }
         .nav-links { display: flex; gap: 20px; align-items: center; }
         .nav-link {
           color: rgba(255,255,255,0.6); text-decoration: none; font-size: 14px;
@@ -377,7 +377,7 @@ export default function UnisLanding() {
 
           /* Nav mobile */
           .nav { padding: 12px 16px; }
-          .nav-logo { height: 32px; }
+          .nav-logo { height: 52px; }
           .nav-links { display: none; }
           .nav-links.open {
             display: flex; flex-direction: column; position: absolute;
