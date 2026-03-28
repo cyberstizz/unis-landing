@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { unisLogo } from "../public/unisLogoThree.svg"
+import  unisLogo  from "../public/unisLogoThree.svg"
 
 const UNIS_BLUE = "#083d8c";
 const UNIS_BLUE_LIGHT = "#1a5fc2";
