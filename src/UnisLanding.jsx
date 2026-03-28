@@ -173,7 +173,7 @@ export default function UnisLanding() {
           display: flex; align-items: center; justify-content: space-between;
           transition: background 0.3s ease, backdrop-filter 0.3s ease, border-color 0.3s ease;
         }
-        .nav-logo { height: 60px; width: auto; }
+        .nav-logo { height: 80px; width: auto; }
         .nav-links { display: flex; gap: 20px; align-items: center; }
         .nav-link {
           color: rgba(255,255,255,0.6); text-decoration: none; font-size: 14px;
@@ -642,7 +642,7 @@ export default function UnisLanding() {
         <div className="hero-glow" style={{ bottom: "-200px", left: "50%", marginLeft: "-250px", background: UNIS_BLUE, opacity: 0.1 }} />
         <div className="section" style={{ textAlign: "center", paddingTop: "100px", paddingBottom: "100px" }}>
           <Reveal>
-            <img src={LOGO_SRC} alt="Unis" style={{ height: "64px", width: "auto", margin: "0 auto 28px" }} />
+            <img src={LOGO_SRC} alt="Unis" style={{ height: "84px", width: "auto", margin: "0 auto 28px" }} />
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="section-heading" style={{ fontSize: "clamp(28px, 5vw, 52px)" }}>
@@ -680,7 +680,7 @@ export default function UnisLanding() {
       {/* ── FOOTER ── */}
       <footer className="footer">
         <div className="footer-inner">
-          <img src={LOGO_SRC} alt="Unis" style={{ height: "30px", width: "auto" }} />
+          <img src={LOGO_SRC} alt="Unis" style={{ height: "50px", width: "auto" }} />
           <p className="footer-copy">© 2026 Unis. Your music. Your masters. Your money.</p>
           <div className="footer-links">
             <a href="#" className="footer-link">Terms</a>
